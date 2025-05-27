@@ -1,8 +1,8 @@
 import {configureStore} from '@reduxjs/toolkit';
-import appSlice from './slices/appSlice';
+import appReducer from './slices/appSlice';
 const store = configureStore({
     reducer: {
-        app: appSlice,
+        app: appReducer,
     }
 });
 
