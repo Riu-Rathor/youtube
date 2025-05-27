@@ -7,7 +7,7 @@ const appSlice = createSlice({
     },
     reducers: {
         toggleMenu : (state) => {
-            state.isMenuOpen = !state.isMenuOpen
+            state.isMenuOpen = !state.isMenuOpen;
         }
     }
 });
